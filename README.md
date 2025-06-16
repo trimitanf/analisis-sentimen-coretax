@@ -2,13 +2,13 @@
 
 ## Deskripsi
 
-Penelitian ini untuk menguji efektivitas algoritma Support Vector Machine (SVM) dalam menganalisis dan mengklasifikasikan sentimen dari tanggapan pengguna media sosial X terhadap sistem Coretax. Melaui pendekatan hybrid, yaitu pelabelan otomatis berbasis lexicon menggunakan TextBlob dan pengklasifikasian menggunakan SVM. Hasil analisis dapat menjadi masukan untuk mengetahui sentimen publik terhadap sistem Coretax, pemangku kebijakan yaitu DJP dapat mengambil langkah-langkah perbaikan yang diperlukan untuk meningkatkan pengalaman pengguna dan memperbaiki aspek teknis sistem ini.
+Penelitian ini untuk menguji efektivitas algoritma Support Vector Machine (SVM) dalam menganalisis dan mengklasifikasikan sentimen dari tanggapan pengguna media sosial X terhadap sistem Coretax. Melalui pendekatan hybrid, yaitu pelabelan otomatis berbasis lexicon menggunakan TextBlob dan pengklasifikasian menggunakan SVM. Hasil analisis dapat menjadi masukan untuk mengetahui sentimen publik terhadap sistem Coretax, pemangku kebijakan yaitu DJP dapat mengambil langkah-langkah perbaikan yang diperlukan untuk meningkatkan pengalaman pengguna dan memperbaiki aspek teknis sistem ini.
 
 ## Spesifikasi
 
 - **Dataset :** Cuitan/Tweet berbahasa Indonesia yang mengandung kata kunci "coretax". Data yang digunakan rentang waktu mulai dari 1 Januari 2025 – 9 Mei 2025 berjumlah 18.528 data mentah;
 - **Metode :** Support Vector Machine (SVM)
-- **Slang & Stop Words :** kamus_slangword.csv dan kamus_stopword.csv;
+- **Slang & Stop Words :** https://github.com/trimitanf/analisis-sentimen-coretax/blob/main/data/kamus_slangword.csv dan https://github.com/username/analisis-sentimen-coretax/blob/main/data/kamus_stopword.csv;
 - **Lexicon :** TexBlob;
 - **Ekstraksi Fitur :** TF-IDF;
 
