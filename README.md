@@ -8,8 +8,7 @@ Penelitian ini untuk menguji efektivitas algoritma Support Vector Machine (SVM) 
 
 - **Dataset :** Cuitan/Tweet berbahasa Indonesia yang mengandung kata kunci "coretax". Data yang digunakan rentang waktu mulai dari 1 Januari 2025 – 9 Mei 2025 berjumlah 18.528 data mentah;
 - **Metode :** Support Vector Machine (SVM)
-- **Slang & Stop Words :** Kamus Slangwords ([Colloquial Indonesian Lexicon](https://github.com/username/analisis-sentimen-coretax/blob/main/data/kamus_slangword.csv)) dan Kamus Stopwords ([ID-Stopwords](https://github.com/username/analisis-sentimen-coretax/blob/main/data/kamus_stopword.csv))
-
+- **Slang & Stop Words :** kamus_slangword.csv dan kamus_stopword.csv;
 - **Lexicon :** TexBlob;
 - **Ekstraksi Fitur :** TF-IDF;
 
